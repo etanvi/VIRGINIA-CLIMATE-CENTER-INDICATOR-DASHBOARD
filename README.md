@@ -7,14 +7,57 @@ Esther Tanvi Marlapudi (G01337846) - emarlapu@gmu.edu (Developer)
 Akhilesh Godishala (G01353173)-  agodisha@gmu.edu (Developer)
 Nitin Reddy (G01371098)- ntadasin@gmu.edu (Developer)
 
-The Virginia Climate Center Indicator Dashboard emerges as a culmination of meticulous research, data analysis, and technological application designed to present an overarching view of Virginia's climate dynamics.
 
-In a world increasingly aware of the profound impacts of climate change, the state of Virginia has not been insulated from its ramifications. It is the objective of this dashboard to provide an intricate, yet easily interpretable display of Virginia's climate indicators, allowing users to delve deep into the evolving climate patterns, vulnerabilities, and projected impacts in the region.
+# Team Virginia Weather Watchers Project
 
-Built upon a foundation of robust data, the dashboard employs advanced data visualization techniques, ensuring that complex climate metrics are rendered in an approachable manner for diverse user groups. Be it a policymaker eager to understand regional vulnerabilities, a student looking for empirical data for research, or a concerned citizen aiming to comprehend the state's climate trajectory, this tool has been tailored to cater to a wide audience spectrum.
+## Project Overview
+The project analyzes heat waves, cold waves, and extreme rainfall events in Virginia from 1951 to 2023. It utilizes NOAA's NClimGrid dataset to study these climatic phenomena's frequency, intensity, duration, and spatial distribution.
 
-Interactivity sits at the core of the dashboard's design philosophy. Interactive maps, coupled with dynamic graphs, enable users to navigate spatial and temporal patterns of climate impacts with precision. Beyond merely showcasing data, the dashboard offers interpretative insights, contextualizing raw numbers within the larger narrative of global climate change.
+## Prerequisites
+- Python (preferably 3.8 or newer)
+- Jupyter Notebook
+- Pandas library
+- Tableau (for visualization)
 
-The underlying architecture ensures scalability and adaptability. As climate data continually evolves, with newer datasets emerging and older ones getting updated, the dashboard has been designed to seamlessly accommodate such expansions. This forward-thinking approach ensures that the Virginia Climate Center Indicator Dashboard remains relevant, timely, and at the forefront of climate adaptation and resilience efforts for years to come.
+## Setup Instructions
+1. **Create a Project Folder**: Create a folder on your desktop or preferred location for project files (e.g., `VirginiaWeatherProject`).
 
-In sum, this digital tool stands as a beacon in the quest for informed climate action in Virginia, aiding decision-makers, researchers, urban planners, educators, and the public in shaping a sustainable and resilient future.
+2. **Download the NOAA Data**: Access and download the required NOAA NClimGrid dataset. Save this data within a subfolder named `Data` inside your project folder.
+
+3. **Clone or Download Project Files**: Clone or download the provided Jupyter notebooks and data cleaning file into your project folder.
+
+## Execution Workflow
+1. **Data Extraction and Formatting (`Data Extraction and Formatting.ipynb`)**:
+   - Launch Jupyter Notebook.
+   - Open the `Data Extraction and Formatting.ipynb` file.
+   - Execute the cells in sequence to extract and format the climate data.
+   - The script will save processed data files in the `Data` folder.
+
+2. **Data Cleaning (`data_cleaning.html`)**:
+   - Review the `data_cleaning.html` file for instructions and Python code to clean the extracted data.
+   - Apply these cleaning steps to the data in your `Data` folder.
+
+3. **Heat and Cold Wave Analysis (`Heat cold waves.ipynb`)**:
+   - Open the `Heat cold waves.ipynb` file in Jupyter Notebook.
+   - Execute the notebook cells to perform the heat and cold wave analysis.
+   - The script identifies heat and cold wave events and calculates their characteristics.
+   - The results will be saved in a CSV file, typically in the same folder.
+
+4. **Data Visualization with Tableau**:
+   - Use Tableau to open the CSV file generated from the previous step.
+   - Create visualizations as per your requirements.
+
+## Project Outputs
+The project outputs include:
+- Processed climate data in CSV format.
+- Analyzed data on heat and cold waves in Virginia.
+- Visualizations in Tableau showcasing trends and patterns.
+
+## Tips for New Users
+- Ensure all dependencies (like Pandas) are installed in your Python environment.
+- Familiarize yourself with Jupyter Notebook's interface for executing the Python notebooks.
+- In Tableau, explore various types of visualizations to best represent the data.
+
+## Conclusion
+This README guides users through setting up their environment, executing the provided scripts, and analyzing climate trends in Virginia. The project aims to equip policymakers and the public with insights into the changing climate patterns in Virginia.
+
