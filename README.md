@@ -1,10 +1,15 @@
 # VIRGINIA-CLIMATE-CENTER-INDICATOR-DASHBOARD
 
 Collaborators:
+
 Sai Deepak Nyatha (G01353631)-  snyatha@gmu.edu (Scrum Master)
+
 Namrata Reddy Palle (G01284937)-  pnamrata@gmu.edu (Product Owner)
+
 Esther Tanvi Marlapudi (G01337846) - emarlapu@gmu.edu (Developer)
+
 Akhilesh Godishala (G01353173)-  agodisha@gmu.edu (Developer)
+
 Nitin Reddy (G01371098)- ntadasin@gmu.edu (Developer)
 
 
