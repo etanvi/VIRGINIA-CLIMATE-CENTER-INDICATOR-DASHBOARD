@@ -27,9 +27,9 @@ The project analyzes heat waves, cold waves, and extreme rainfall events in Virg
 ## Setup Instructions
 1. **Create a Project Folder**: Create a folder on your desktop or preferred location for project files (e.g., `VirginiaWeatherProject`).
 
-2. **Download the NOAA Data**: Access and download the required NOAA NClimGrid dataset. Save this data within a subfolder named `Data` inside your project folder.
+2. **Download the NOAA Data**: Access and download the all the required NOAA NClimGrid data files. Save this data within a subfolder named `Data` inside your project folder.
 
-3. **Clone or Download Project Files**: Clone or download the provided Jupyter notebooks and data cleaning file into your project folder.
+3. **Clone or Download Project Files**: Clone or download the provided Jupyter notebooks, data cleaning and visualization i.e. tableau workbook files into your project folder.
 
 ## Execution Workflow
 1. **Data Extraction and Formatting (`Data Extraction and Formatting.ipynb`)**:
@@ -47,10 +47,13 @@ The project analyzes heat waves, cold waves, and extreme rainfall events in Virg
    - Execute the notebook cells to perform the heat and cold wave analysis.
    - The script identifies heat and cold wave events and calculates their characteristics.
    - The results will be saved in a CSV file, typically in the same folder.
+   - Alternatively, you can also approach this analysis using the other heatwave and cold wave data calulation python file.
+   - You can create the data again using this python script.
 
 4. **Data Visualization with Tableau**:
+   - Open the tableau workbook file provided and connect the data sources respectively, make sure the data filenames match for the dashboard to work accurately.
    - Use Tableau to open the CSV file generated from the previous step.
-   - Create visualizations as per your requirements.
+   - Manipulate visualizations as per your requirements.
 
 ## Project Outputs
 The project outputs include:
