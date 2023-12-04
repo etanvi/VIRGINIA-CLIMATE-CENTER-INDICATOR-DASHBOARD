@@ -47,7 +47,7 @@ The project analyzes heat waves, cold waves, and extreme rainfall events in Virg
    - Execute the notebook cells to perform the heat and cold wave analysis.
    - The script identifies heat and cold wave events and calculates their characteristics.
    - The results will be saved in a CSV file, typically in the same folder.
-   - Alternatively, you can also approach this analysis using the other heatwave and cold wave data calulation python file.
+   - Alternatively, you can also approach this analysis using the other Heatwave and cold wave data calulation.ipynb python file.
    - You can create the seperate csv files used for the time series dashboard using this python script.
 
 4. **Data Visualization with Tableau**:
