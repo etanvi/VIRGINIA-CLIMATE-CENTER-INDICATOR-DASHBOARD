@@ -2,7 +2,7 @@
 
 Collaborators:
 
-Sai Deepak Nyatha (G01353631)-  snyatha@gmu.edu (Scrum Master)
+Sai Deepak Nyatha (G01353631)-  snyatha@gmu.edu (Scrum Master/ Data Analyst)
 
 Namrata Reddy Palle (G01284937)-  pnamrata@gmu.edu (Product Owner)
 
